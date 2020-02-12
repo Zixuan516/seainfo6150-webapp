@@ -1,0 +1,28 @@
+.container {
+    background: white;
+    margin: 19px 19px;
+    border: 1px solid red;
+    padding: 1rem;
+
+}
+
+.header {
+    font-size: 2rem;
+    color: #DD0F0F;
+    margin-top:2px;
+    margin-bottom:1px;
+
+}
+
+
+.p{
+    font-size:107%
+
+
+
+}
+.time {
+    font-weight:bold;
+    font-size:90%;
+    margin-bottom:-2px;
+}

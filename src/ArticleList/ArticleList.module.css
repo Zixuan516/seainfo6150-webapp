@@ -1,0 +1,10 @@
+.container {
+    background: gray;
+    margin: 30px 15%;
+    padding: 1px;
+
+}
+
+.header {
+    font-size: 2rem;
+}

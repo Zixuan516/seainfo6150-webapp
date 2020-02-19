@@ -1,18 +1,35 @@
 .container {
     background: #eee;
     border: 1px solid #c00;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     padding: 10px;
     position: relative;
+    display: flex;
+    background-image: linear-gradient(
+        to right,
+        #c9676e,
+        white 20%
+        );
+    box-shadow: 0 8px 12px 0 rgb(63, 63, 63);
+    border-radius:15px;
 }
 
 .title {
     color: #c00;
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin: .5rem 0;
 }
 
 .pubDate {
     font-weight: bold;
     font-size: smaller;
+}
+
+.text{
+    margin-left:1.8rem;
+    margin-bottom:3rem;
+}
+
+.p{
+    font-size: 1.15rem;
 }

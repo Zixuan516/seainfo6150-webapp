@@ -17,7 +17,7 @@ class AddingMachine extends React.Component {
 
   render() {
     let whee;
-
+// eslint-disable-next-line
     const startNum = this.props.startNum;
 
     if (this.state.currentNum % 10 === 0) {

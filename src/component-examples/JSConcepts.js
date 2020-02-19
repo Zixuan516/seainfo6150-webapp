@@ -13,6 +13,7 @@ const JSConcepts = (props) => {
   const stringWithValue = `This is a string with ${userName} embedded`;
   console.log('STRING 3', stringWithValue);
 
+  // eslint-disable-next-line
   let foo = 5;
   foo = foo + 1;
 

@@ -5,7 +5,7 @@ import styles from "./ArticleList.module.css";
 
 const ArticleList = props => {
   return (
-    <ul className={styles.container}>
+    <ul>
       {props.articles.map(article => (
         <li key={article.slug} >
           <ArticleListItem article={article} />

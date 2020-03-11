@@ -9,3 +9,13 @@ img {
     width: 130px;
     height: 70px;
 }
+
+
+
+@media (max-width: 300px) {
+    img {
+    border: 7px solid rgb(202, 8, 47);
+        height: 56px;
+        width: 90px;
+    }
+}

@@ -23,3 +23,15 @@ li{
     );
     box-shadow: 0 8px 7px 0px  #4d4d4d;
 }
+
+@media (max-width: 900px) {
+    ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    ul {
+        grid-template-columns: 1fr;
+    }
+}
